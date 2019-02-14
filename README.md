@@ -1,2 +1,4 @@
 # javascript-training
-A set of brain teasers gathered from the we
+A set of easy Javascript algoriths from different sources.
+
+Each file has the istrunctions and fuction that I wrote to solve the problem, therefore use the readme file to try to solve it yourself first!
