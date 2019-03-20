@@ -1,4 +1,5 @@
 # javascript-training
-A set of easy Javascript algoriths from different sources.
 
-Each file has the instructions and fuction that I wrote to solve the problem, therefore use the readme file to try to solve it yourself first!
+A set of easy Javascript algorithms from different sources.
+
+It's a good starting point to get aquainter with coding interview challenges.
