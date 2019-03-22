@@ -1,4 +1,4 @@
-//Given a base and a heigh retun the area of a triangle
+//Given a base and a heigh return the area of a triangle
 // What's the equasion for triangle area?
 
 function triangleArea(base, height) {
