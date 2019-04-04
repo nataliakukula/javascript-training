@@ -31,3 +31,21 @@ function createProduct(arr) {
 }
 
 console.log(createProduct(arr))
+
+//OPTIMIZATION:
+let array = [1, 2, 3, 4];
+// output [24, 12, 8, 6]
+
+function createProduct(arr) {
+    let newArr = [];
+
+    var maxVal = arr.reduce(function (a, b) { return a * b; });
+
+    for (let i = 0; i < arr.length; i++) {
+        newArr.push(maxVal / arr[i]);
+    }
+
+    return newArr;
+}
+
+console.log(createProduct(array))
