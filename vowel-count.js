@@ -8,14 +8,12 @@ function countTheVowels(str) {
     let vowels = ['a', 'e', 'i', 'o', 'u'];
     // initiallize a result array
     let result = [];
-    // take the input and split the string into an array
-    let array = str.split('');
     // loop through the splitted array
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < str.length; i++) {
         // if the element from splitted array is included in the vowel set
-        if (vowels.includes(array[i])) {
+        if (vowels.includes(str[i])) {
             // push the vowel into the result array
-            result.push(array[i]);
+            result.push(str[i]);
         }
     };
     // return the length of the result array
