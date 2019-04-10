@@ -20,5 +20,13 @@ function countTheVowels(str) {
     return result.length;
 }
 
+// ES6 -> test to see if it's more optimized
+function countTheVowels(str) {
+    let vowels = ['a', 'e', 'i', 'o', 'u'];
+    return str.split('').filter(letter => {
+        return vowels.includes(letter) ? true : false;
+    }).length;
+}
+
 let string = 'i love javascript';
 console.log(countTheVowels(string));
